@@ -1,0 +1,21 @@
+html *{
+        box-sizing: border-box;
+}
+*:before,*:after{
+        box-sizing: border-box;
+}
+
+body{
+    font-size: 24px;
+    background-color: dodgerblue;
+    color: orange;
+    
+}
+h1{font-size: }
+p{
+    backgorund-color: blue;
+    padding:16px;
+    border: 1px solid #000000;
+    margin: 30px;
+    width: 500px;
+}
