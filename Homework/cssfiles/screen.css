@@ -16,7 +16,7 @@ body{
     
 }
 nav {
-    margin-top: -30;
+    margin-top: -30px;
     border-top: .5px solid black;
 	border-right: .5px solid black;
 	border-left: .5px solid black;
@@ -30,7 +30,7 @@ nav {
     padding-top: 5px;
     color:black;
 }
-h1{font-size: ;
+h1{
     border-top: .5px solid black;
 	border-right: .5px solid black;
 	border-left: .5px solid black;
@@ -43,7 +43,7 @@ h2{
     background-color: orange;
     color: black;
     text-align: center;
-    background-position left: 15 px;
+    
 }
 h3{
     background-color: orange;
