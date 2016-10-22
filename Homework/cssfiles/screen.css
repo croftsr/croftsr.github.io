@@ -62,7 +62,7 @@ p{
     color: black;
     padding:5px;
     border: 1px solid #000000;
-    margin: 50%;
+    margin-left: 50%;
     width: 500px;
     text-align: center;
 }
@@ -76,7 +76,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin: 50%;
+    margin-left: 50%;
 }
 footer{
     background-color: orange;
@@ -140,7 +140,7 @@ p{
     color: black;
     padding:5px;
     border: 1px solid #000000;
-    margin: 50%;
+    margin-left: 50%;
     width: 500px;
     text-align: center;
 }
@@ -154,7 +154,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin: 50%;
+    margin-left: 50%;
 }
         #hourly{
             background-color: orange;
