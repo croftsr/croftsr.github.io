@@ -76,7 +76,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 50%;
 }
 footer{
     background-color: orange;
@@ -154,7 +154,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 50%;
 }
         #hourly{
             background-color: orange;
