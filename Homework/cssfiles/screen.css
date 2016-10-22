@@ -140,7 +140,7 @@ p{
     color: black;
     padding:5px;
     border: 1px solid #000000;
-    margin-left: 45%;
+    margin-left: 35%;
     width: 500px;
     text-align: center;
 }
@@ -154,7 +154,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 40%;
 }
         #hourly{
             background-color: orange;
