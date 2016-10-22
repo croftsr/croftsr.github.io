@@ -8,11 +8,11 @@ html *{
     header{
     background-color: orange;
     color: black;
-    font-size: 96px;
+    font-size: 23px;
     margin-left: 500px;
 }
 body{
-    font-size: 93px;
+    font-size: 20px;
     background-color: dodgerblue;
     color: orange;
     
@@ -27,7 +27,7 @@ nav {
 	margin: auto;
 	background-color: darkorange;
 	height: auto;
-	font-size: 93px;
+	font-size: 20px;
 	padding-bottom: 5px;
     padding-top: 5px;
     color:black;
