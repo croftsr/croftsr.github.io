@@ -62,7 +62,7 @@ p{
     color: black;
     padding:5px;
     border: 1px solid #000000;
-    margin-left: 45%;
+    margin-left: center;
     width: 500px;
     text-align: center;
 }
@@ -76,7 +76,7 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin-left: 50%;
+    margin-left: center;
 }
 footer{
     background-color: orange;
