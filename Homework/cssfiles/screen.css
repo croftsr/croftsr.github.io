@@ -78,6 +78,13 @@ img{
     text-align: center;
     margin-left: 50%;
 }
+    #mobile{
+        display: none;
+    }
+    #tab{
+        display: none;
+    }
+    #brow{}
 footer{
     background-color: orange;
     color: black;
@@ -163,6 +170,14 @@ img{
             list-style-type: none;
             margin: auto
         }
+        #mobile{
+                 display: none;
+        }
+        #tab{
+        }
+        #brow{
+            display: none;
+        }
 footer{
     background-color: orange;
     color: black;
@@ -247,4 +262,12 @@ footer{
 #hourly{
     display: none;
 }
+        #mobile{
+        }
+        #tab{
+         display: none;
+        }
+        #brow{
+            display: none;
+        }
 }
