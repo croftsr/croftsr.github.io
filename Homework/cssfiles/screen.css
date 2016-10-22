@@ -64,6 +64,7 @@ p{
     border: 1px solid #000000;
     margin: 30px;
     width: 500px;
+    text-align: center;
 }
 img{
     background-color: orange;
@@ -140,6 +141,7 @@ p{
     border: 1px solid #000000;
     margin: 30px;
     width: 500px;
+    text-align: center;
 }
 img{
     background-color: orange;
@@ -150,6 +152,7 @@ img{
     color: black;
     align-content: center;
     object-position: center;
+    text-align: center;
 }
         #hourly{
             background-color: orange;
