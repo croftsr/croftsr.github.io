@@ -4,8 +4,8 @@ html *{
 *:before,*:after{
         box-sizing: border-box;
 }
-@media only screen and (min-width:800px){
-    header{
+@media only screen and (min-width:1024px){
+ header{
     background-color: orange;
     color: black;
     font-size: 23px;
@@ -73,6 +73,7 @@ img{
     color: black;
     align-content: center;
     object-position: center;
+    text-align: center;
 }
 footer{
     background-color: orange;
@@ -80,14 +81,14 @@ footer{
     
 }
 }
-    @media only screen and (max-width:768px){
+    @media only screen and (min-width:768px){
 header{
     background-color: orange;
     color: black;
-    font-size: 56px;
+    font-size: 53px;
 }
 body{
-    font-size: 56px;
+    font-size: 50px;
     background-color: dodgerblue;
     color: orange;
     
@@ -102,7 +103,7 @@ nav {
 	margin: auto;
 	background-color: darkorange;
 	height: auto;
-	font-size: 56px;
+	font-size: 53px;
 	padding-bottom: 5px;
     padding-top: 5px;
     color:black;
@@ -149,6 +150,11 @@ img{
     align-content: center;
     object-position: center;
 }
+        #hourly{
+            background-color: orange;
+            color: black;
+            text-align: center;        
+        }
 footer{
     background-color: orange;
     color: black;
