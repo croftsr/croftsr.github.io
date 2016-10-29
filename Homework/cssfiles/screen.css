@@ -77,9 +77,8 @@ img{
 	border-bottom: .5px solid black;
     color: black;
     align-content: center;
-    object-position: center;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 45%;
 }
     #High{
         margin-left: 25%;
@@ -88,6 +87,9 @@ img{
     #grnd{
         margin-left: 45%
         
+    }
+    #hourly{
+        margin-right: 10%;
     }
     #mobile{
         display: none;
