@@ -4,7 +4,7 @@ html *{
 *:before,*:after{
         box-sizing: border-box;
 }
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:768px){
  header{
     background-color: orange;
     color: black;
@@ -12,6 +12,8 @@ html *{
     
 }
 body{
+    display: flex;
+    flex-flow: column;
     font-size: 20px;
     background-color: dodgerblue;
     color: orange;
@@ -32,6 +34,7 @@ nav {
 	padding-bottom: 5px;
     padding-top: 5px;
     color:black;
+    flex-direction: row;
 }
 h1{
     border-top: .5px solid black;
@@ -99,7 +102,7 @@ footer{
     
 }
 }
-    @media only screen and (min-width:768px){
+    @media only screen and (max-width:768px){
 header{
     background-color: orange;
     color: black;
@@ -109,6 +112,8 @@ body{
     font-size: 50px;
     background-color: dodgerblue;
     color: orange;
+    flex-flow: column;
+    display: flex;
     
 }
 nav {
@@ -125,6 +130,7 @@ nav {
 	padding-bottom: 5px;
     padding-top: 5px;
     color:black;
+    flex-direction: row;
 }
 h1{
     border-top: .5px solid black;

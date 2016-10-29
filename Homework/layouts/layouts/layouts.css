@@ -16,22 +16,47 @@ body{
     margin: 0;
     padding: 0;
 }
+#wrapper{
+    display: flex;
+    flex-flow: column;
+}
+#everything{
+    display: flex;
+    justify-content: space-around;
+      
+}
+nav{
+    flex: 1 25%;
+    background-color: aqua;
+    order: +2;
+}
+aside{
+    flex: 1 25%;
+    background-color: aquamarine;
+    order: -1;
+}
+main{
+    flex: 2 50%;
+    background-color: coral;
+}
 .row{
-    overflow: hidden;
 }
 @media screen and (min-width: 500px){
 #page-nav,
 main,
 #page-aside{
-    float: left;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-around;
 }
 
 
 #page-nav,
 #page-aside;{
-    width: 25%;
+    
 }
 main{
-    width: 50%;
+    
 }
 }
