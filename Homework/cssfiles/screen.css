@@ -95,6 +95,7 @@ img{
         display: none;
     }
     #brow{
+        
     }
 footer{
     background-color: orange;
@@ -208,7 +209,8 @@ body{
     font-size: 20px;
     background-color: dodgerblue;
     color: orange;
-    
+    display: flex;
+    flex-flow: column;
 }
 nav {
     margin-top: -30px;
