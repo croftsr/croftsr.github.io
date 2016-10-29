@@ -65,7 +65,7 @@ p{
     color: black;
     padding:5px;
     border: 1px solid #000000;
-    margin-left: 48%;
+    
     width: 500px;
     text-align: center;
 }
@@ -79,13 +79,14 @@ img{
     align-content: center;
     object-position: center;
     text-align: center;
-    margin-left: 75%;
+    margin-left: 25%;
 }
     #High{
         margin-left: 25%;
         
     }
     #grnd{
+        margin-left: 45%
         
     }
     #mobile{
