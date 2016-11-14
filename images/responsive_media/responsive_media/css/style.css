@@ -51,7 +51,8 @@ h1 {
 
 .page-header {
    background-image: image(images\responsive_media\responsive_media\images\nps-logo-50),image(images\responsive_media\responsive_media\images\grand-canyon-400);
-        
+    background-position: right 15px, top;
+    
 }
 
 
