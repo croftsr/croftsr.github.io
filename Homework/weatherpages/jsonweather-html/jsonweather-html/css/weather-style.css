@@ -3,7 +3,7 @@
 
 /* Bring in the weather_type.css file */
 
-@import url('user_styles.css');
+@import url('weather-style.css');
 
 /*Change the box model*/
 
@@ -68,7 +68,7 @@ body {
 
 #page-nav a {
   display: flex;
-  flex: auto;
+  flex: auto;.
   background-color: #000;
   color: #fff;
   padding: 1% 5%;
