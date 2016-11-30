@@ -30,7 +30,7 @@ function toTitleCase(str) {
 
 
 
-
+ 
 
 // Intercept the menu link clicks
 $("#page-nav").on("click", "a", function (evt) {
