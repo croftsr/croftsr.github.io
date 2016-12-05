@@ -1,5 +1,5 @@
 // Current Location Scripts
-$(function () {
+$(function() {
 
   var status = $('#status');
 
@@ -23,20 +23,22 @@ $(function () {
   // Get the data from the wunderground API
   function getData(lat, long){
     $.ajax({ 
-        url: "http://api.wunderground.com/api/a8b9ab8e9f5580f1/geolookup/conditions/astronomy/q/" + lat + "," + long + ".jsonp",
-        dataType: ".jsonp",
-        success: function(parsed_json) {
-            console.log(parsed_json);
-            var location = parsed_json['location']['city'];
-            var state = parsed_json['location']['state'];
-            $("#cityDisplay").text(location + " " + city + "," + state)
+        url: "https://api.wunderground.com/api/a8b9ab8e9f5580f1/geolookup/conditions/astronomy/q/" + lat + "," + long + ".json",
+        dataType: "jsonp",
+        success: function(data) {
+            console.log("success",data);
             
-        var temp_f = Math.round(parseInt(parsed_json['current_observation']['temp_f']));
-            var state = parsed_json['location']['state'];
-        
+      
+            $('#cityDisplay').prepend(data.location.city +', '+ data.location.state + ' ')
+            $('#currentTemp').text(Math.round(data.current_observation.temp_f) +'\xB0 '+ 'F')
+            $('#add1').append('With a visibility of '+data.current_observation.visibility_mi +' Miles.')
+            $('#add2').append('Wind: '+ data.current_observation.wind_string)
+            $('#add3').append('Relative Humidity: '+data.current_observation.relative_humidity)
+                        
+            console.log("success", data);
 
       $("#cover").fadeOut(250);
-    }
+    } 
            });
 
   }
