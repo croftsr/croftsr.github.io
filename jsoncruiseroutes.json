@@ -1,0 +1,9 @@
+{
+	"routes": {
+		"Alaskan": "From Seattle, Washington -> Anchorage, Alaska -> North Korea -> Fiji, Japan -> Seattle, Washington. Costs: $400 per person.",
+        "Mediterraian":"From Ellis Island, New York -> Syria -> Sicily, Italy -> Pisa, Italy -> Barcelona, Spain -> Dubai, United Arab Emirates -> Ellis Island, New York. Costs: $250 per person." ,
+        "Hawaiian":"From Los Angeles, California -> Owaho, Hawaii -> Papua New Ginuea -> Indonesia -> Thailand -> Los Angeles, California. Costs: $400 per adult, $300 per child. Life Insurance proof requiered.",
+        "European":"From Orlando, Florida -> Swansea, Great Britain -> Poland -> France -> Portugal -> Orlando, Florida. Costs: $300 per adult, $250 per child. 
+        
+		}
+	}

@@ -1,5 +1,5 @@
 body {
-	background-color:lightcyan;
+	background-color: lightgoldenrodyellow;
 }
 
 header {
@@ -13,7 +13,7 @@ nav {
 	border-bottom: .5px solid black;
 	width: auto;
 	margin: 0px;
-	background-color: floralwhite;
+	background-color: coral;
 	height: auto;
 	font-size: 1.3em;
 	padding-bottom: 10px;
@@ -79,7 +79,7 @@ header {
 	margin-bottom: 0px;
 	padding: 10px;
 	align-content: center;
-	background-color: burlywood;
+	background-color: lightblue;
 }
 
 #sitelogo{
