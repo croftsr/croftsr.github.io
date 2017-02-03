@@ -4,6 +4,7 @@ html *{
 *:before,*:after{
         box-sizing: border-box;
 }
+/*
 @media only screen and (min-width:768px){
  header{
     background-color: orange;
@@ -210,12 +211,14 @@ footer{
     color: black;
     
 }
+*/
 
     @media only screen and (max-width:375px){
 header{
     background-color: orange;
     color: black;
     font-size: 23px;
+    margin-left: 190px;
 }
 body{
     font-size: 20px;
@@ -230,7 +233,7 @@ nav {
 	border-right: .5px solid black;
 	border-left: .5px solid black;
 	border-bottom: .5px solid black;
-	width: auto;
+	width: 100%;
 	margin: auto;
 	background-color: darkorange;
 	height: auto;
@@ -239,7 +242,11 @@ nav {
     padding-top: 5px;
     color:black;
 }
+        nav li{
+            display: inline;
+        }
 h1{
+/*    margin-left: 200px;*/
     border-top: .5px solid black;
 	border-right: .5px solid black;
 	border-left: .5px solid black;
@@ -249,12 +256,14 @@ h1{
     text-align: center
 }
 h2{
+    margin-left: 200px; 
     background-color: orange;
     color: black;
     text-align: center;
     
 }
 h3{
+    margin-left: 200px;
     background-color: orange;
     color: black;
     align-content: flex-end;
@@ -281,6 +290,7 @@ img{
     color: black;
     align-content: center;
     object-position: center;
+    margin-left: 100px;
 }
 footer{
     background-color: orange;

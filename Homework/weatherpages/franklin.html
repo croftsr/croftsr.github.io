@@ -2,48 +2,56 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Franklin Weather Page</title>
-	<meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Franklin Weather Page</title>
+    <meta name="viewport" content="width=device-width">
     <link href="../../Homework/cssfiles/screen.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
     <div id="wrapper">
         <header>
-            <h1>WillItRain.org</h1>
+            <h1 style="margin-right: 200px;">WillItRain.org</h1>
+
+            <nav>
+                <div id="links">
+                    <ul>
+                        <li><a href="../weatherpages/jsonweather-html/jsonweather-html/index.html">Current Location</a></li>
+                        <li><a href="../../Homework/weatherpages/franklin.html">Franklin, ID</a></li>
+                        <li><a href="../../Homework/weatherpages/greenville.html">Greenville, ID</a></li>
+                        <li><a href="springville">Springville, ID</a></li>
+<!--                        <li><a href="search.html">Search</a></li>-->
+                    </ul>
+                </div>
+            </nav>
         </header>
-        
-        
-    <nav>
-			<div id="links"><ul>
-            <li><a href="../weatherpages/jsonweather-html/jsonweather-html/index.html">Current Location</a></li>
-            <li><a href="../../Homework/weatherpages/franklin.html" >Franklin, ID</a></li>
-            <li><a href="../../Homework/weatherpages/greenville.html">Greenville, ID</a></li>
-            <li><a href="springville">Springville, ID</a></li>
-            <li><a href="search.html">Search</a></li>
-            </ul></div>
-		</nav>    
-	
-    	<main>
+
+
+
+        <main>
             <div id="summary">
-			<h1>Franklin, ID</h1>
-           <div id="grnd"><p>Summary: Sunny</p>
-            <img src ="../../images/sun.jpg" alt="Sunny">
-                </div></div>
-            
-            
-			<h2> Today's weather information: </h2>
-            <div id="High"><p>High: 90&deg; F.  |   Low: 66&deg; F.</p>
-            <p>Wind Speed: 1-5 mph</p>
-            <p>Direction:SW   |   prec.: 0%</p>
-            <p>Longitude: -111.803757 <br> Latitude: 42.011902  </p>
+                <h2>Franklin, ID</h2>
+                <div id="grnd">
+                    <p>Summary: Sunny</p>
+                    <img src="../../images/sun.jpg" alt="Sunny">
+                </div>
             </div>
-            
-        
+
+
+            <h2> Today's weather information: </h2>
+            <div id="High">
+                <p>High: 90&deg; F. | Low: 66&deg; F.</p>
+                <p>Wind Speed: 1-5 mph</p>
+                <p>Direction:SW | prec.: 0%</p>
+                <p>Longitude: -111.803757
+                    <br> Latitude: 42.011902 </p>
+            </div>
+
+
             <h3>Hourly Temperatures:</h3>
-            <ul id="hourly"><li>"0": 67&deg;F</li>
+            <ul id="hourly">
+                <li>"0": 67&deg;F</li>
                 <li>"1": 67&deg;F</li>
                 <li>"2": 69&deg;F</li>
                 <li>"3": 69&deg;F</li>
@@ -66,36 +74,37 @@
                 <li>"20": 74&deg;F</li>
                 <li>"21": 70&deg;F</li>
                 <li>"22": 68&deg;F</li>
-                <li>"23": 66&deg;F</li></ul>
-            
-        
-		<div id="mobile">
-    <img src="../../images/mobile%20portrait.png" alt="Mobile plan" >
+                <li>"23": 66&deg;F</li>
+            </ul>
+
+
+            <div id="mobile">
+                <img src="../../images/mobile%20portrait.png" alt="Mobile plan">
             </div>
-<!--
+            <!--
         <div id="tab">
     <img src="../../images/tablet%20size.png" alt="tablet plan" >
             </div>
             <div id="brow">
     <img src="../../images/Browser%20view.png" alt="Browser plan" >
 -->
-            </div>
-        </main>     
-            <footer>
-			<ul>
-				<li>&copy;2016</li>
-				<li>
-					Scott Croft
-				</li>
-				<li>Last Updated: 10/9/2016
-					
-				</li>
-			</ul>
-		</footer>
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-        <script src="modules.js"></script>
-        <script src="search.js"></script>
-	</div>
+    </div>
+    </main>
+    <footer>
+        <ul>
+            <li>&copy;2016</li>
+            <li>
+                Scott Croft
+            </li>
+            <li>Last Updated: 10/9/2016
+
+            </li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="modules.js"></script>
+    <script src="search.js"></script>
+    </div>
 </body>
 
 </html>
