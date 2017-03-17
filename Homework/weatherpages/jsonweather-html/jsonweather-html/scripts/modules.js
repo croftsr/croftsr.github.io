@@ -1,9 +1,9 @@
 // Include modules into the html file
 // Pathes may need altered depending on site structure
 $(function () {
-  $("#header").load("/header.html");
-  $("#nav").load("/navigation.html");
-  $("#footer").load("/footer.html");
+  $("#header").load("../jsonweather-html/modules/header.html");
+    $("#nav").load("../jsonweather-html/modules/navigation.html");
+    $("#footer").load("../jsonweather-html/modules/footer.html");
 
 });
 
