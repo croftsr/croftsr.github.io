@@ -48,19 +48,3 @@ $(function() {
     return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
   }
 });
-
-////API Code Bro.Thompson
-//JQuery(document).ready(function ($) {
-//    
-//    $.ajax({
-//        url: "https://api.wunderground.com/api/a8b9ab8e9f5580f1/geolookup/conditions/astronomy/q/",
-//        datatype: "json",
-//        success: function (data){
-//            console.log(data);
-//            var location = data['Springfield']['City']
-//            var temp = data[]
-//            
-//            script src:""
-//        }
-//    })
-//})
