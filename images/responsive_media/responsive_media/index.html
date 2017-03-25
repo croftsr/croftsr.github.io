@@ -26,7 +26,11 @@
 			<h1 class="main-title">Grand Canyon National Park</h1>
 
 			<figure class="featured-image">
-				<picture src="images/grand-canyon-400.jpg 400w" srcset="images/grand-canyon-800.jpg 800w, images/grand-canyon-1200.jpg 1200w" alt="Picture from the Grand Canyon"></picture>
+				<picture>
+                    <source srcset="images/grand-canyon-400.jpg 400w" media="min-width: 0px"> 
+                    <source srcset="images/grand-canyon-400.jpg 800w" media="min-width: 360px">
+                    <source srcset="images/grand-canyon-400.jpg 1200w" media="min-width: 768px> <img source=" alt="Picture from the Grand Canyon
+                </picture>
 
 				<figcaption class="image-caption">
                     <img src="images/trail-1200.jpg 1200w"
