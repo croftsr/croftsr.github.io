@@ -3,7 +3,7 @@
 $(function () {
     $("#page-header").load("/finalproject/header.html");
     console.log("test")
-    $("#page-nav").load("/finalproject/nav.html");
+   
     $("#page-footer").load("/finalproject/footer.html");
 
 });

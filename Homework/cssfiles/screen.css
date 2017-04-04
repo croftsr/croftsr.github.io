@@ -479,7 +479,7 @@ footer{
             display: none;
         }
     }
-    @media only screen and (min-width:375px) and (max-width:767px) {
+    @media only screen and (min-width:375px) and (max-width:768px) {
         header {
             background-color: orange;
             color: black;
@@ -630,7 +630,7 @@ footer{
             color: black;
         }
     }
-    @media only screen and (min-width:786px) {
+    @media only screen and (min-width:788px) {
         header {
             background-color: orange;
             color: black;
@@ -693,7 +693,7 @@ footer{
             background-color: orange;
             color: black;
             text-align: center;
-            margin-left: 155px;
+            margin-left: 140px;
             border: solid black;
             display: flex;
             flex-flow: column nowrap;
