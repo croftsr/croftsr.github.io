@@ -1,7 +1,7 @@
 
-    $(function()
+    /*$(function() {
       
-    $.getJSON( "ajax/cruise.json", function( data ) {
+    $.getJSON( "cruise.json", function( data ) {
     console.log(data)
         var items = [];
     $.each( data, function( key, val ) {
@@ -15,6 +15,23 @@
 
     $( "<ul/>", {
         "class": "Activity",
+        html: items.join( "" )
+    }).appendTo( "main" );
+});
+    }*/
+
+$.getJSON("/finalproject/cruise.json", function( data ) {
+    var items = [];
+    $.each( data, function( key, val ) {
+        items.push( "<li id='" + key + "'>" + val["C"] +  "           </li>" );
+        items.push( "<li id='" + key + "'>" + val["B"] +  "           </li>" );
+        items.push( "<li id='" + key + "'>" + val["D"] +  "           </li>" );
+        items.push( "<li id='" + key + "'>" + val["S"] +  "           </li>" );
+        items.push( "<li id='" + key + "'>" + val["P"] +  "           </li>" );
+    });
+
+    $( "<ul/>", {
+        "class": "my-new-list",
         html: items.join( "" )
     }).appendTo( "main" );
 });

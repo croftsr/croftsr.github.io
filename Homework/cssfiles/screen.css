@@ -472,6 +472,18 @@ footer{
         align-content: center;
         margin: auto;
     }
+    .my-new-list {
+        background-color: darkorange;
+        width: 80%;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        color: black;
+        display: flex;
+        margin-left: 10%;
+
+    }
     #hourly {
         background-color: orange;
         color: black;
@@ -628,6 +640,18 @@ footer{
         justify-content: center;
         align-content: center;
         margin: auto;
+    }
+    .my-new-list {
+        background-color: darkorange;
+        width: 80%;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        color: black;
+        display: flex;
+        margin-left: 10%;
+
     }
     #hourly {
         background-color: orange;
@@ -787,6 +811,18 @@ footer{
             align-content: center;
             margin: auto;
             width: auto;
+        }
+        .my-new-list {
+            background-color: darkorange;
+            width: 80%;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            color: black;
+            display: flex;
+            margin-left: 10%;
+            
         }
         #hourly {
             background-color: orange;
