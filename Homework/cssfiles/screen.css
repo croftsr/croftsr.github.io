@@ -350,8 +350,8 @@ footer{
         background-color: orange;
         color: black;
         font-size: 35px;
-        width: 70%;
-        margin-left: 15%;
+        width: 100%;
+        margin-left: 10%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
