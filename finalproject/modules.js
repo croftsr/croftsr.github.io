@@ -1,6 +1,6 @@
 // Include modules into the html file
 // Pathes may need altered depending on site structure
-$(function() {
+$(function () {
     
     $("#page-header").load("/finalproject/header.html");
    
