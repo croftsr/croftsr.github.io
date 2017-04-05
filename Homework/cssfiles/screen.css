@@ -376,8 +376,8 @@ footer{
         display: inline;
         text-align: center;
         background-color: darkorange;
-        margin-left: 100px;
-        width: 70%;
+        margin-left: 70px;
+        width: 80%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
@@ -408,7 +408,7 @@ footer{
         background-color: orange;
         color: black;
         text-align: center;
-        margin-left: 140px;
+        /*            margin-left: 140px;*/
         border: solid black;
         display: flex;
         flex-flow: column nowrap;
@@ -533,8 +533,8 @@ footer{
         display: inline;
         text-align: center;
         background-color: darkorange;
-        margin-left: 100px;
-        width: 70%;
+        margin-left: 70px;
+        width: 80%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
@@ -565,7 +565,7 @@ footer{
         background-color: orange;
         color: black;
         text-align: center;
-        margin-left: 140px;
+        /*            margin-left: 140px;*/
         border: solid black;
         display: flex;
         flex-flow: column nowrap;
@@ -690,8 +690,8 @@ footer{
             display: inline;
             text-align: center;
             background-color: darkorange;
-            margin-left: 100px;
-            width: 70%;
+            margin-left: 70px;
+            width: 80%;
             display: flex;
             flex-flow: row nowrap;
             justify-content: center;
@@ -722,7 +722,7 @@ footer{
             background-color: orange;
             color: black;
             text-align: center;
-            margin-left: 140px;
+/*            margin-left: 140px;*/
             border: solid black;
             display: flex;
             flex-flow: column nowrap;
